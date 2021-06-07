@@ -1,0 +1,30 @@
+//   const newColor1 = "#" + data.color1
+    //   const newColor2 = "#" + data.color2
+      
+    //   // change the colors of Circle1 and Circle 2
+    //   document.querySelector("#circle1").style.background = newColor1;
+    //   document.querySelector("#circle2").style.background = newColor2;
+      
+    //   //average of both the colors 
+    //   var avg  = function(a,b){ return (a+b)/2; },
+    //            t16  = function(c){ return parseInt((''+c).replace('#',''),16) },
+    //       hex  = function(c){ return (c>>0).toString(16) },
+    //       hex1 = t16(newColor1),
+    //       hex2 = t16(newColor2),
+    //       r    = function(hex){ return hex >> 16 & 0xFF},
+    //       g    = function(hex){ return hex >> 8 & 0xFF},
+    //       b    = function(hex){ return hex & 0xFF},
+    //       mixed  = '#' + hex(avg(r(hex1),r(hex2))) + hex(avg(g(hex1),g(hex2))) + hex(avg(b(hex1),b(hex2)));
+              
+                                 
+    //    //change the color of the Circle 3
+    //   document.querySelector("#circle3").style.background = mixed;  
+     
+     
+    //  // invert the mixed color 
+    //   let invertInput = mixed.substring(1)
+    //   let invert = (Number(`0x1${invertInput}`) ^ 0xFFFFFF).toString(16).substr(1)
+      
+    //  //change the color of the Circle 4
+    //   document.querySelector("#circle4").style.background = "#" + invert;  
+      
